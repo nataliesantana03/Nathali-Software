@@ -1,7 +1,8 @@
 # Nathali-Software
 Trabajo de desarrollo de software-Unisinu
 
-Manual de Usuario 
+Manual de Usuario:
+
 A continuación encontrarás una guía paso a paso para utilizar este sistema correctamente.
 
 1. Descarga y Ejecución del Programa:
@@ -28,10 +29,12 @@ A continuación encontrarás una guía paso a paso para utilizar este sistema co
 
 6. Finalizar la Ejecución:
    - Una vez que hayas terminado de utilizar el programa, puedes cerrar la terminal o línea de comandos para finalizar la ejecución.
+     
 
-Manual de Requerimientos, Funciones y No Funcionales*
+Manual de Requerimientos, Funciones y No Funcionales:
 
-*1. Requerimientos Funcionales:
+
+1. Requerimientos Funcionales:
 
 A: Creación de Envíos:
    - Los usuarios deben poder crear nuevos envíos especificando el tipo (paquete estándar, documento urgente, artículo frágil) y sus características como peso y dimensiones.
@@ -42,16 +45,17 @@ B: Cálculo del Costo del Envío:
 C: Mostrar Información del Envío:
    - Después de calcular el costo del envío el sistema debe mostrar información detallada sobre cada envío, incluyendo el tipo de envío y el costo calculado.
 
-2. Requerimientos No Funcionales:*
+2. Requerimientos No Funcionales:
 
-A: Precisión en los Cálculos:*
+A: Precisión en los Cálculos:
    - El sistema realiza cálculos precisos y exactos del costo del envío según la lógica definida para cada tipo de envío.
      
-B: Eficiencia en el Cálculo:*
+B: Eficiencia en el Cálculo:
    - El cálculo del costo del envío debe ser eficiente y rápido para proporcionar una respuesta instantánea al usuario.
      
 
 Mnual Técnico del Software:
+
 
 1. Arquitectura del Sistema:
 El sistema está desarrollado en Java utilizando programación orientada a objetos (POO). La arquitectura sigue un enfoque de clases y herencia para representar diferentes tipos de envíos y sus cálculos de costos.
