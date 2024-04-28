@@ -65,7 +65,7 @@ El sistema está desarrollado en Java utilizando programación orientada a objet
 2. Tecnologías Utilizadas:
    - Lenguaje de Programación: Java
    - Sistema de Control de Versiones: Git
-   - Repositorio: GitHub para el control de versiones y colaboración.
+   - Repositorio: GitHub para el control de versiones.
 
 3. Estructura del Código Fuente:
    - Envio.java: Clase base que representa un envío genérico con atributos como peso y dimensiones, y método para calcular el costo del envío.
@@ -74,6 +74,6 @@ El sistema está desarrollado en Java utilizando programación orientada a objet
 
 4. Configuración del Entorno de Desarrollo:
    - Instala Java Development Kit (JDK) en tu computadora.
-   - Descarga e instala un IDE compatible como IntelliJ IDEA, Eclipse, etc.
+   - Descarga e instala un IDE compatible como IntelliJ IDEA, Eclipse, NetBeans, etc.
    - Clona el repositorio Git del proyecto o descarga los archivos del programa en tu computadora.
 
