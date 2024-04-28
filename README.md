@@ -1,6 +1,8 @@
 # Nathali-Software
 Trabajo de desarrollo de software-Unisinu
 
+Video de explicacion: https://youtu.be/lGOMgLCy-fI?si=3k81UlkItj0GqKZC
+
 Manual de Usuario:
 
 A continuación encontrarás una guía paso a paso para utilizar este sistema correctamente.
