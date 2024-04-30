@@ -1,6 +1,8 @@
 # Nathali-Software
 Trabajo de desarrollo de software-Unisinu
 
+en el video no se muestran las nuevas actulizaciones ya que la modificacion se realizo hoy lunes 29 de abril
+
 Video de explicacion: https://youtu.be/lGOMgLCy-fI?si=3k81UlkItj0GqKZC
 
 Manual de Usuario:
