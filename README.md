@@ -24,6 +24,7 @@ A continuación encontrarás una guía paso a paso para utilizar este sistema co
 
 4. Información Mostrada:
    - Cuando se ejecuta el programa, se mostrará la siguiente información para cada envío:
+     - Preguntas: se hara una serie de preguntas para establecer la caracteristica del envio.
      - Costo de Envío: El costo calculado para el envío en función de sus características.
      - Tipo de Envío: Indica si el envío es un Paquete Estándar, Documento Urgente o Artículo Frágil.
 
