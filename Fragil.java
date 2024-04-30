@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Fragil extends Envio{
 
     public boolean isFragil;
@@ -19,20 +21,46 @@ public class Fragil extends Envio{
     }
 
     public static void main(String [] args){
-        Envio envio1 = new DocumetUrgente (2.5, 30.0);
-        Envio envio2 = new Fragil (5.0, 40.0);
-        Envio envio3 = new PaqueteEstandar (0.5, 20.0);
+        System.out.println("Bienvenido, aqui podras encontrar informacion sobre el costo del envio que vas a realizar.");
 
-        double costoEnvio1 = envio1.calcularenvio();
-        double costoEnvio2 = envio2.calcularenvio();
-        double costoEnvio3 = envio3.calcularenvio();
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("El costo del envio 1: $" + costoEnvio1 + " - tipo:" + envio1);
-        System.out.println("El costo del envio 2: $" + costoEnvio2 + " - tipo:" + envio2);
-        System.out.println("El costo del envio 3: $" + costoEnvio3 + " - tipo:" + envio3);
+        System.out.print("¿El paquete es frágil? elige si es (true/false): ");
+        boolean isFragil = scanner.nextBoolean();
 
+        Envio envio;
+        if (isFragil) {
+            envio = new Fragil(0.0, 0.0); 
+        } else {
+            // aqui se puede saber si el tipo de envío es frágil o no
+            System.out.print("¿Qué tipo de envío desea? (1 - Documento Urgente, 2 - Paquete Estándar): ");
+            int tipoEnvio = scanner.nextInt();
 
+      
+            switch (tipoEnvio) {
+                case 1:
+                    envio = new DocumetUrgente(0.0, 0.0);
+                    break;
+                case 2:
+                    envio = new PaqueteEstandar(0.0, 0.0);
+                    break;
+                default:
+                    System.out.println("Opción no válida, se utilizará el envío estándar por defecto.");
+                    envio = new PaqueteEstandar(0.0, 0.0);
+                    break;
+            }
+        }
+
+        // calcula el costo del envio
+        double costoEnvio = envio.calcularenvio();
+
+        // imprime el resultado del envio que realizo el cliente
+        System.out.println("\n--- EL RESULTADO DE SU ENVIO ES ---");
+        System.out.println("El costo del envío es: $" + costoEnvio);
+        System.out.println("Tipo de envío: " + envio);
+
+    
+        scanner.close();
     }
 }
-
 

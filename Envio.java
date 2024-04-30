@@ -14,6 +14,9 @@ public class Envio{
     public double calcularenvio(){
         return 0.0;
     }
+    public String toString(){
+        return "Envio";
+    }
 
 
 }
